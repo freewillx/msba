@@ -3,7 +3,7 @@ library(ggplot2)
 library(psych)
 
 # Network structure visualization
-g = read.graph("D:/Dropbox/MSBA/NetworkAnalytics/data/graph_subset.txt", format = "ncol", directed = TRUE)
+g = read.graph("data/graph_subset.txt", format = "ncol", directed = TRUE)
 
 tkplot(g, vertex.size = 5,
        vertex.color="#5BA5F5", 
